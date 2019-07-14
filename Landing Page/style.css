@@ -1,0 +1,67 @@
+*{
+	margin: 0px;
+}
+
+body{
+	font-size: 18px;
+}
+
+header{
+	background-image: url("city.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 0 20px;
+}
+
+#text{
+	text-align: center;
+	position: relative;
+	color: black;
+	font-size: 125%;
+	margin: 10px;
+}
+
+#button{
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 10px;
+	text-decoration: none;
+	color: black;
+	position: relative;
+	top: 40px;
+}
+
+#section-a{
+	text-align: center;
+	background-color: red;
+	padding: 20px;
+	
+}
+
+#section-b{
+	text-align: center;
+	background-color: yellow;
+	padding: 20px;
+	
+}
+
+#section-c{
+	display: flex;
+}
+
+#section-c .box1, .box3{
+	background-color: red;
+	padding: 20px;
+}
+
+#section-c .box2{
+	background-color: yellow;
+	padding: 20px;
+}
+
